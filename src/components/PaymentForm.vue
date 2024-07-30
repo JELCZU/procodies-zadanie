@@ -3,14 +3,25 @@
 <template>
   <div>
     <div>Enter details</div>
-    <input title="First name" /><input /> <input title="Last name" /><input /><input
+    <input title="First name" name="First name" placeholder="First name" />
+    <input title="Last name" name="Last name" placeholder="Last name" /><input
       title="Street"
-    /><input /><input title="Postal code" /><input /><input title="City" /><input /><input
-      title="Phone number"
-    /><input /><input title="E-mail" /><input /><input
+      name="Street"
+      placeholder="Street"
+    /><input title="Postal code" name="Postal code" placeholder="Postal code" /><input
+      title="City"
+      name="City"
+      placeholder="City"
+    /><input title="Phone number" name="Phone number" placeholder="Phone number" /><input
+      title="E-mail"
+      name="E-mail"
+      placeholder="E-mail"
+    /><input
       type="submit"
       value="Proceed to payment"
-    /><input />
+      title="Proceed to payment"
+      name="Proceed to payment"
+    />
   </div>
 </template>
 
