@@ -1,7 +1,4 @@
-<script setup>
-import PaymentForm from './PaymentForm.vue'
-import PriceTag from './PriceTag.vue'
-</script>
+<script setup></script>
 
 <template>
   <div>
@@ -16,6 +13,7 @@ import PriceTag from './PriceTag.vue'
         surprise factor of Stockx Mystery Boxes!</span
       >
     </div>
+    <img src="../assets/stock/Stock6.png" alt="Available credit cards" />
   </div>
 </template>
 

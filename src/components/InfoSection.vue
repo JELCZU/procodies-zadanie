@@ -21,13 +21,16 @@ const articles = [
 </script>
 
 <template>
-  <div>
-    <info-article
-      v-for="article in articles"
-      v-bind:key="article.id"
-      :title="article.title"
-      :text="article.text"
-    />
+  <div class="bg-white-smoke">
+    <div class="d-flex flex-row m-0 pb-6 pt-6">
+      <info-article
+        class="ml-4 mr-4"
+        v-for="article in articles"
+        v-bind:key="article.id"
+        :title="article.title"
+        :text="article.text"
+      />
+    </div>
   </div>
 </template>
 

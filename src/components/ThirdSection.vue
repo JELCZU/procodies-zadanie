@@ -1,10 +1,8 @@
-<script setup>
-import PaymentForm from './PaymentForm.vue'
-import PriceTag from './PriceTag.vue'
-</script>
+<script setup></script>
 
 <template>
   <div>
+    <img src="../assets/stock/Stock5.png" alt="Available credit cards" />
     <div>
       <h1>Curious about the StockX Mystery Box?</h1>
       <span

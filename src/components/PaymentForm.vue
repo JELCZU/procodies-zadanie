@@ -2,26 +2,30 @@
 
 <template>
   <div>
-    <div>Enter details</div>
-    <input title="First name" name="First name" placeholder="First name" />
-    <input title="Last name" name="Last name" placeholder="Last name" /><input
+    <label class="xx-large forest-pine">Enter details</label>
+    <input class="input" title="First name" name="First name" placeholder="First name" />
+    <input class="input" title="Last name" name="Last name" placeholder="Last name" /><input
+      class="input"
       title="Street"
       name="Street"
       placeholder="Street"
-    /><input title="Postal code" name="Postal code" placeholder="Postal code" /><input
+    /><input class="input" title="Postal code" name="Postal code" placeholder="Postal code" /><input
+      class="input"
       title="City"
       name="City"
       placeholder="City"
-    /><input title="Phone number" name="Phone number" placeholder="Phone number" /><input
-      title="E-mail"
-      name="E-mail"
-      placeholder="E-mail"
     /><input
+      class="input"
+      title="Phone number"
+      name="Phone number"
+      placeholder="Phone number"
+    /><input class="input" title="E-mail" name="E-mail" placeholder="E-mail" /><button
+      class="btn"
       type="submit"
-      value="Proceed to payment"
-      title="Proceed to payment"
       name="Proceed to payment"
-    />
+    >
+      Proceed to payment
+    </button>
   </div>
 </template>
 

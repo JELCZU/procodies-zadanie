@@ -1,12 +1,9 @@
-<script setup>
-import PaymentForm from './PaymentForm.vue'
-import PriceTag from './PriceTag.vue'
-</script>
+<script setup></script>
 
 <template>
   <div>
     <div>
-      <h1>Top Tech Mystery Box at Unbeatable Prices</h1>
+      <h2 class="color-forest-pine">Top Tech Mystery Box at Unbeatable Prices</h2>
 
       <div>Fast shipping | Easy returns | Special discounts for students</div>
     </div>

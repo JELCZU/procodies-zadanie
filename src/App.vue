@@ -18,17 +18,18 @@ import FourthSection from './components/FourthSection.vue'
       <HelloWorld msg="You did it!" />
     </div>
   </header> -->
-
-  <main>
-    <!-- <section><form-section></form-section></section> -->
-    <section><first-section /></section>
-    <section><second-section></second-section></section>
-    <section><third-section></third-section></section>
-    <section><fourth-section></fourth-section></section>
-    <section><info-section /></section>
-    <!-- <TheWelcome /> -->
-  </main>
-  <footer-section />
+  <div>
+    <main>
+      <!-- <section><form-section></form-section></section> -->
+      <section><first-section /></section>
+      <section><second-section></second-section></section>
+      <section><third-section></third-section></section>
+      <section><fourth-section></fourth-section></section>
+      <section class="mb-4"><info-section /></section>
+      <!-- <TheWelcome /> -->
+    </main>
+    <footer-section />
+  </div>
 </template>
 
 <style scoped></style>
