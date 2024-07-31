@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div>
+  <div class="mr-4 ml-4">
     <div>
       <h2 class="color-forest-pine">Top Tech Mystery Box at Unbeatable Prices</h2>
 

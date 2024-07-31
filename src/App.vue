@@ -22,8 +22,8 @@ import FourthSection from './components/FourthSection.vue'
     <main>
       <!-- <section><form-section></form-section></section> -->
       <section><first-section /></section>
-      <section><second-section></second-section></section>
-      <section><third-section></third-section></section>
+      <section class="pb-8"><second-section></second-section></section>
+      <section class="pb-6"><third-section></third-section></section>
       <section class="pt-6 pb-6"><fourth-section></fourth-section></section>
       <section class="pb-4 pt-6"><info-section /></section>
     </main>
