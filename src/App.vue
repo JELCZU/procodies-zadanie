@@ -24,9 +24,8 @@ import FourthSection from './components/FourthSection.vue'
       <section><first-section /></section>
       <section><second-section></second-section></section>
       <section><third-section></third-section></section>
-      <section><fourth-section></fourth-section></section>
-      <section class="mb-4"><info-section /></section>
-      <!-- <TheWelcome /> -->
+      <section class="pt-6 pb-6"><fourth-section></fourth-section></section>
+      <section class="pb-4 pt-6"><info-section /></section>
     </main>
     <footer-section />
   </div>

@@ -1,8 +1,8 @@
 <script setup></script>
 
 <template>
-  <div>
-    <img src="../assets/stock/Stock5.png" alt="Available credit cards" />
+  <div class="d-flex">
+    <img src="../assets/stock/Stock5.png" alt="Available credit cards" width="50px" />
     <div>
       <h1>Curious about the StockX Mystery Box?</h1>
       <span
