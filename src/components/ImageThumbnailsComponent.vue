@@ -3,28 +3,29 @@ import { ref } from 'vue'
 import PriceTag from './PriceTag.vue'
 const images = ref([
   {
-    src: '/src/assets/stock/Stock2.png',
+    src: new URL('../assets/stock/Stock2.png', import.meta.url).href,
     alt: 'Stock image 2',
     id: 2
   },
   {
-    src: '/src/assets/stock/Stock3.png',
+    src: new URL('../assets/stock/Stock3.png', import.meta.url).href,
     alt: 'Stock image 3',
     id: 3
   },
   {
-    src: '/src/assets/stock/Stock4.png',
+    src: new URL('../assets/stock/Stock4.png', import.meta.url).href,
     alt: 'Stock image 4',
     id: 4
   }
 ])
 let selectedImage = ref({
-  src: '/src/assets/stock/Stock1.png',
+  src: new URL('../assets/stock/Stock1.png', import.meta.url).href,
   alt: 'Stock image 1',
   id: 1
 })
 
 function changeMainImage(id) {
+  window.console.log(new URL('../assets/stock/Stock1.png', import.meta.url).href)
   const index = images.value.findIndex((el) => el.id === id)
   if (index > -1) {
     const temp = images.value.splice(index, 1, selectedImage.value)[0]
