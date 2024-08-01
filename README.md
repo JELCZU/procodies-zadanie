@@ -1,35 +1,42 @@
-# procodies-zadanie
+# Bike shop
 
-This template should help get you started developing with Vue 3 in Vite.
+This is landing page design- recruitment task app. This app is based on figma design.
 
-## Recommended IDE Setup
+[DEMO](https://jelczu.github.io/procodies-zadanie/)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Table of contents
 
-## Customize configuration
+- [Instalation](#Instalation)
+- [About app](#About-app)
+- [Technologies](#Technologies)
+- [Sources](#Sources)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Instalation
 
-## Project Setup
+To run this project you need to have enviroment with npm!
 
-```sh
-npm install
-```
+To run project
 
-### Compile and Hot-Reload for Development
+git clone https://github.com/JELCZU/procodies-zadanie
 
-```sh
+or download repository by clicking "Open with GitHub Desktop" or "Download ZIP"
+In project main folder you need to run two commands
+npm i
 npm run dev
-```
 
-### Compile and Minify for Production
+## About app
 
-```sh
-npm run build
-```
+This app is based on figma design.
 
-### Lint with [ESLint](https://eslint.org/)
+## Technologies
 
-```sh
-npm run lint
-```
+Vue
+Html
+Css
+Javascript
+
+## Sources
+
+### Images
+
+This project uses stock images

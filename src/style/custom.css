@@ -1,1 +1,27 @@
-
+@import './base.css';
+.btn {
+  font-weight: 600;
+  padding: 0.75rem;
+  background-color: var(--primary-color);
+  color: var(--white);
+  cursor: pointer;
+  border-color: var(--primary-color);
+  border-radius: 0.625rem;
+}
+.input {
+  border-color: var(--dark-gray);
+  border-width: 1px;
+  border-radius: 0.625rem;
+  padding: 0.75rem 1rem;
+  font-weight: 400;
+  color: var(--gray);
+}
+.input:focus {
+  border-color: var(--forest-pine);
+  color: var(--forest-pine);
+}
+.border-1 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--gray-86);
+}

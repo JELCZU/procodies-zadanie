@@ -1,7 +1,4 @@
 <script setup>
-// import HelloWorld from './components/HelloWorld.vue'
-// import TheWelcome from './components/TheWelcome.vue'
-import FormSection from './components/FormSection.vue'
 import InfoSection from './components/InfoSection.vue'
 import FooterSection from './components/FooterSection.vue'
 import FirstSection from './components/FirstSection.vue'

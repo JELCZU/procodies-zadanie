@@ -5,11 +5,15 @@
     <div>
       <h2 class="forest-pine text-center m-0 mb-2">Top Tech Mystery Box at Unbeatable Prices</h2>
 
-      <span class="text-center d-inline-block w-100 primary large"
+      <span class="text-center d-inline-block w-100 primary large subtitle"
         >Fast shipping | Easy returns | Special discounts for students</span
       >
     </div>
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.subtitle {
+  line-height: 1.5rem;
+}
+</style>
