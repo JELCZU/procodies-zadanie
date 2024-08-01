@@ -30,6 +30,7 @@
     'Droid Sans',
     'Helvetica Neue',
     sans-serif;
+  box-sizing: border-box;
 }
 body {
   color: var(--color-text);
@@ -64,17 +65,31 @@ h5 {
   font-size: 2rem;
   font-weight: 500;
 }
-.x-small {
-  font-size: 0.625rem;
-  font-weight: 400;
-  line-height: 1rem;
+.x-large {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.large {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.medium {
+  font-size: 1rem;
 }
 .small {
   font-size: 0.75rem;
   font-weight: 400;
 }
+.x-small {
+  font-size: 0.625rem;
+  font-weight: 400;
+  line-height: 1rem;
+}
 .w-100 {
   width: 100%;
+}
+.w-50 {
+  width: 50%;
 }
 .font-weight-500 {
   font-weight: 500;
@@ -108,6 +123,7 @@ h5 {
   cursor: pointer;
   border-color: var(--primary-color);
   border-radius: 0.625rem;
+  margin: 0.5rem;
 }
 .input {
   border-color: var(--dark-gray);
@@ -116,10 +132,14 @@ h5 {
   padding: 0.75rem 1rem;
   font-weight: 400;
   color: var(--gray);
+  margin: 0.5rem;
 }
 .input:focus {
   border-color: var(--forest-pine);
   color: var(--forest-pine);
+}
+.d-inline-block {
+  display: inline-block;
 }
 .d-flex {
   display: flex;
@@ -135,6 +155,9 @@ h5 {
 }
 .align-content-center {
   align-content: center;
+}
+.text-center {
+  text-align: center;
 }
 .flex-row {
   flex-direction: row;
@@ -412,6 +435,8 @@ h5 {
 .pr-8 {
   padding-right: 2rem;
 }
-.text-center {
-  text-align: center;
+.border-1 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--gray-86);
 }

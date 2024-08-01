@@ -3,9 +3,11 @@
 <template>
   <div class="mr-4 ml-4">
     <div>
-      <h2 class="color-forest-pine">Top Tech Mystery Box at Unbeatable Prices</h2>
+      <h2 class="forest-pine text-center m-0 mb-2">Top Tech Mystery Box at Unbeatable Prices</h2>
 
-      <div>Fast shipping | Easy returns | Special discounts for students</div>
+      <span class="text-center d-inline-block w-100 primary large"
+        >Fast shipping | Easy returns | Special discounts for students</span
+      >
     </div>
   </div>
 </template>
