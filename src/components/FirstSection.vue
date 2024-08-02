@@ -5,7 +5,7 @@ import ImageThumbnailsComponent from './ImageThumbnailsComponent.vue'
 
 <template>
   <div class="d-flex justify-content-center align-items-center">
-    <section>
+    <section class="image-thumbnail-section">
       <image-thumbnails-component></image-thumbnails-component>
     </section>
     <section class="mr-4 ml-4">
@@ -25,5 +25,8 @@ import ImageThumbnailsComponent from './ImageThumbnailsComponent.vue'
 }
 .margin-bottom-23px {
   margin-bottom: 23px;
+}
+.image-thumbnail-section {
+  margin-left: 27px;
 }
 </style>
