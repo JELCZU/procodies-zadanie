@@ -3292,7 +3292,7 @@ const ol = { class: 'small font-weight-600 p-0 m-0 mb-1' },
       )
     }
   },
-  dl = '/gh-pages/assets/debit_cards-C9TjlDhO.png',
+  dl = '/procodies-zadanie/assets/debit_cards-C9TjlDhO.png',
   Le = (e, t) => {
     const s = e.__vccOpts || e
     for (const [n, r] of t) s[n] = r
@@ -3316,9 +3316,9 @@ function ml(e, t) {
   return se(), ne('div', null, gl)
 }
 const bl = Le(hl, [['render', ml]]),
-  yl = '/gh-pages/assets/McAfeeSecure-CrSgvvJK.png',
-  xl = '/gh-pages/assets/TrusteVerified-DWNWtqu7.png',
-  vl = '/gh-pages/assets/256BitEncryption-DlAzjsy2.png',
+  yl = '/procodies-zadanie/assets/McAfeeSecure-CrSgvvJK.png',
+  xl = '/procodies-zadanie/assets/TrusteVerified-DWNWtqu7.png',
+  vl = '/procodies-zadanie/assets/256BitEncryption-DlAzjsy2.png',
   wl = {},
   Pr = (e) => (Rs('data-v-0e7d508a'), (e = e()), Fs(), e),
   Sl = { class: 'border-1 p-6 form-border' },
@@ -3443,28 +3443,30 @@ const Pl = Le(wl, [
     setup(e) {
       const t = sn([
         {
-          src: new URL('/gh-pages/assets/Stock2-Bfro68z3.png', import.meta.url).href,
+          src: new URL('/procodies-zadanie/assets/Stock2-Bfro68z3.png', import.meta.url).href,
           alt: 'Stock image 2',
           id: 2
         },
         {
-          src: new URL('/gh-pages/assets/Stock3--9bHXxHR.png', import.meta.url).href,
+          src: new URL('/procodies-zadanie/assets/Stock3--9bHXxHR.png', import.meta.url).href,
           alt: 'Stock image 3',
           id: 3
         },
         {
-          src: new URL('/gh-pages/assets/Stock4-CVj6WjnU.png', import.meta.url).href,
+          src: new URL('/procodies-zadanie/assets/Stock4-CVj6WjnU.png', import.meta.url).href,
           alt: 'Stock image 4',
           id: 4
         }
       ])
       let s = sn({
-        src: new URL('/gh-pages/assets/Stock1-DFYgEhvA.png', import.meta.url).href,
+        src: new URL('/procodies-zadanie/assets/Stock1-DFYgEhvA.png', import.meta.url).href,
         alt: 'Stock image 1',
         id: 1
       })
       function n(r) {
-        window.console.log(new URL('/gh-pages/assets/Stock1-DFYgEhvA.png', import.meta.url).href)
+        window.console.log(
+          new URL('/procodies-zadanie/assets/Stock1-DFYgEhvA.png', import.meta.url).href
+        )
         const i = t.value.findIndex((o) => o.id === r)
         if (i > -1) {
           const o = t.value.splice(i, 1, s.value)[0]
@@ -3564,7 +3566,7 @@ const tc = Le(kl, [
     ['render', ec],
     ['__scopeId', 'data-v-688abd77']
   ]),
-  sc = '/gh-pages/assets/Stock5-DkCOMqp2.png',
+  sc = '/procodies-zadanie/assets/Stock5-DkCOMqp2.png',
   nc = {},
   rc = { class: 'd-flex align-items-center ml-4 mr-4' },
   ic = Ns(
@@ -3581,7 +3583,7 @@ const cc = Le(nc, [
     ['render', lc],
     ['__scopeId', 'data-v-86e2bee7']
   ]),
-  fc = '/gh-pages/assets/Stock6-MeiNhssH.png',
+  fc = '/procodies-zadanie/assets/Stock6-MeiNhssH.png',
   uc = {},
   ac = { class: 'd-flex align-items-center m-l-18px m-r-17px' },
   dc = Ns(
