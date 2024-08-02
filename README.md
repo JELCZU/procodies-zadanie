@@ -1,4 +1,4 @@
-# Bike shop
+# Procodies zadanie
 
 This is landing page design- recruitment task app. This app is based on figma design.
 
