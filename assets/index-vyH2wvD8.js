@@ -3292,7 +3292,7 @@ const ol = { class: 'small font-weight-600 p-0 m-0 mb-1' },
       )
     }
   },
-  dl = '/procodies-zadanie/assets/debit_cards-C9TjlDhO.png',
+  dl = '/gh-pages/assets/debit_cards-C9TjlDhO.png',
   Le = (e, t) => {
     const s = e.__vccOpts || e
     for (const [n, r] of t) s[n] = r
@@ -3316,9 +3316,9 @@ function ml(e, t) {
   return se(), ne('div', null, gl)
 }
 const bl = Le(hl, [['render', ml]]),
-  yl = '/procodies-zadanie/assets/McAfeeSecure-CrSgvvJK.png',
-  xl = '/procodies-zadanie/assets/TrusteVerified-DWNWtqu7.png',
-  vl = '/procodies-zadanie/assets/256BitEncryption-DlAzjsy2.png',
+  yl = '/gh-pages/assets/McAfeeSecure-CrSgvvJK.png',
+  xl = '/gh-pages/assets/TrusteVerified-DWNWtqu7.png',
+  vl = '/gh-pages/assets/256BitEncryption-DlAzjsy2.png',
   wl = {},
   Pr = (e) => (Rs('data-v-0e7d508a'), (e = e()), Fs(), e),
   Sl = { class: 'border-1 p-6 form-border' },
@@ -3443,30 +3443,28 @@ const Pl = Le(wl, [
     setup(e) {
       const t = sn([
         {
-          src: new URL('/procodies-zadanie/assets/Stock2-Bfro68z3.png', import.meta.url).href,
+          src: new URL('/gh-pages/assets/Stock2-Bfro68z3.png', import.meta.url).href,
           alt: 'Stock image 2',
           id: 2
         },
         {
-          src: new URL('/procodies-zadanie/assets/Stock3--9bHXxHR.png', import.meta.url).href,
+          src: new URL('/gh-pages/assets/Stock3--9bHXxHR.png', import.meta.url).href,
           alt: 'Stock image 3',
           id: 3
         },
         {
-          src: new URL('/procodies-zadanie/assets/Stock4-CVj6WjnU.png', import.meta.url).href,
+          src: new URL('/gh-pages/assets/Stock4-CVj6WjnU.png', import.meta.url).href,
           alt: 'Stock image 4',
           id: 4
         }
       ])
       let s = sn({
-        src: new URL('/procodies-zadanie/assets/Stock1-DFYgEhvA.png', import.meta.url).href,
+        src: new URL('/gh-pages/assets/Stock1-DFYgEhvA.png', import.meta.url).href,
         alt: 'Stock image 1',
         id: 1
       })
       function n(r) {
-        window.console.log(
-          new URL('/procodies-zadanie/assets/Stock1-DFYgEhvA.png', import.meta.url).href
-        )
+        window.console.log(new URL('/gh-pages/assets/Stock1-DFYgEhvA.png', import.meta.url).href)
         const i = t.value.findIndex((o) => o.id === r)
         if (i > -1) {
           const o = t.value.splice(i, 1, s.value)[0]
@@ -3512,10 +3510,11 @@ const Pl = Le(wl, [
     }
   },
   Bl = Le(Dl, [['__scopeId', 'data-v-fdcf2154']]),
-  Vl = (e) => (Rs('data-v-b45b21fb'), (e = e()), Fs(), e),
+  Vl = (e) => (Rs('data-v-9615c778'), (e = e()), Fs(), e),
   Kl = { class: 'd-flex justify-content-center align-items-center' },
-  Wl = { class: 'mr-4 ml-4' },
-  ql = Vl(() =>
+  Wl = { class: 'image-thumbnail-section' },
+  ql = { class: 'mr-4 ml-4' },
+  zl = Vl(() =>
     O(
       'div',
       { class: 'margin-bottom-23px' },
@@ -3526,19 +3525,19 @@ const Pl = Le(wl, [
       -1
     )
   ),
-  zl = {
+  Gl = {
     __name: 'FirstSection',
     setup(e) {
       return (t, s) => (
-        se(), ne('div', Kl, [O('section', null, [J(Bl)]), O('section', Wl, [ql, J(Pl)])])
+        se(), ne('div', Kl, [O('section', Wl, [J(Bl)]), O('section', ql, [zl, J(Pl)])])
       )
     }
   },
-  Gl = Le(zl, [['__scopeId', 'data-v-b45b21fb']]),
-  Jl = {},
-  kl = (e) => (Rs('data-v-688abd77'), (e = e()), Fs(), e),
-  Yl = { class: 'mr-4 ml-4' },
-  Xl = kl(() =>
+  Jl = Le(Gl, [['__scopeId', 'data-v-9615c778']]),
+  kl = {},
+  Yl = (e) => (Rs('data-v-688abd77'), (e = e()), Fs(), e),
+  Xl = { class: 'mr-4 ml-4' },
+  Zl = Yl(() =>
     O(
       'div',
       null,
@@ -3557,69 +3556,69 @@ const Pl = Le(wl, [
       -1
     )
   ),
-  Zl = [Xl]
-function Ql(e, t) {
-  return se(), ne('div', Yl, Zl)
+  Ql = [Zl]
+function ec(e, t) {
+  return se(), ne('div', Xl, Ql)
 }
-const ec = Le(Jl, [
-    ['render', Ql],
+const tc = Le(kl, [
+    ['render', ec],
     ['__scopeId', 'data-v-688abd77']
   ]),
-  tc = '/procodies-zadanie/assets/Stock5-DkCOMqp2.png',
-  sc = {},
-  nc = { class: 'd-flex align-items-center ml-4 mr-4' },
-  rc = Ns(
+  sc = '/gh-pages/assets/Stock5-DkCOMqp2.png',
+  nc = {},
+  rc = { class: 'd-flex align-items-center ml-4 mr-4' },
+  ic = Ns(
     '<img src="' +
-      tc +
+      sc +
       '" alt="Stock products" class="flex-item-2 border-radius-36px mr-8" width="50%" data-v-86e2bee7><div class="flex-item-2 height-min-content" data-v-86e2bee7><h3 class="m-0 mb-6" data-v-86e2bee7>Curious about the <span class="h3-span" data-v-86e2bee7>StockX </span>Mystery Box?</h3><p class="m-0 mb-2" data-v-86e2bee7> Experience the thrill of unboxing cutting-edge gadgets with Stockx Mystery Boxes. Each box is a treasure trove of high-quality electronics, handpicked to elevate your tech game. </p><p class="m-0" data-v-86e2bee7> Expect the unexpected! Our boxes are packed with the latest gadgets, from smartphones to gaming consoles, ensuring you get the best tech surprises every time. </p></div>',
     2
   ),
-  ic = [rc]
-function oc(e, t) {
-  return se(), ne('div', nc, ic)
+  oc = [ic]
+function lc(e, t) {
+  return se(), ne('div', rc, oc)
 }
-const lc = Le(sc, [
-    ['render', oc],
+const cc = Le(nc, [
+    ['render', lc],
     ['__scopeId', 'data-v-86e2bee7']
   ]),
-  cc = '/procodies-zadanie/assets/Stock6-MeiNhssH.png',
-  fc = {},
-  uc = { class: 'd-flex align-items-center m-l-18px m-r-17px' },
-  ac = Ns(
+  fc = '/gh-pages/assets/Stock6-MeiNhssH.png',
+  uc = {},
+  ac = { class: 'd-flex align-items-center m-l-18px m-r-17px' },
+  dc = Ns(
     '<div class="flex-item-2 height-min-content mr-8" data-v-ef9b3666><h3 class="m-0 mb-6" data-v-ef9b3666>Why is everyone buzzing about these boxes?</h3><p class="m-0 mb-2" data-v-ef9b3666> StockX Mystery Boxes are not just about products; they’re about the experience. Imagine the excitement of unveiling top-tier electronics at a fraction of the cost. </p><p class="m-0" data-v-ef9b3666> Our boxes include a variety of premium tech items, making it a must-have for every tech enthusiast. Join the buzz and see why everyone is raving about the unbeatable value and surprise factor of Stockx Mystery Boxes! </p></div><img src="' +
-      cc +
+      fc +
       '" alt="Stock products" class="flex-item-2 border-radius-36px" width="50%" data-v-ef9b3666>',
     2
   ),
-  dc = [ac]
-function hc(e, t) {
-  return se(), ne('div', uc, dc)
+  hc = [dc]
+function pc(e, t) {
+  return se(), ne('div', ac, hc)
 }
-const pc = Le(fc, [
-    ['render', hc],
+const _c = Le(uc, [
+    ['render', pc],
     ['__scopeId', 'data-v-ef9b3666']
   ]),
-  _c = { class: 'pt-4 pb-6' },
-  gc = { class: 'pt-6 pb-8' },
-  mc = { class: 'pb-6' },
-  bc = { class: 'pt-6 pb-6' },
-  yc = { class: 'pb-4 pt-6' },
-  xc = {
+  gc = { class: 'pt-4 pb-6' },
+  mc = { class: 'pt-6 pb-8' },
+  bc = { class: 'pb-6' },
+  yc = { class: 'pt-6 pb-6' },
+  xc = { class: 'pb-4 pt-6' },
+  vc = {
     __name: 'App',
     setup(e) {
       return (t, s) => (
         se(),
         ne('div', null, [
           O('main', null, [
-            O('section', _c, [J(Gl)]),
-            O('section', gc, [J(ec)]),
-            O('section', mc, [J(lc)]),
-            O('section', bc, [J(pc)]),
-            O('section', yc, [J(al)])
+            O('section', gc, [J(Jl)]),
+            O('section', mc, [J(tc)]),
+            O('section', bc, [J(cc)]),
+            O('section', yc, [J(_c)]),
+            O('section', xc, [J(al)])
           ]),
           J(bl)
         ])
       )
     }
   }
-nl(xc).mount('#app')
+nl(vc).mount('#app')
